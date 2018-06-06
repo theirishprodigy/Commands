@@ -1,0 +1,9 @@
+Locally with CMD/PS 
+net user /add itvantage [password]
+net localgroup administrators itvantage /add
+net user administrator [password]
+
+Remotely with PSEXEC
+psexec [target_hostname] net user /add itvantage [password]
+psexec [target_hostname] net localgroup administrators itvantage /add
+psexec [target_hostname] net user administrator [password]

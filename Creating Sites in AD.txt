@@ -1,0 +1,39 @@
+Creating Multiple Sites 
+
+From client level: 
+
+Click Add Sites 
+
+Copy Defaults from parent site 
+
+Link to customer in PSA Integration 
+
+Save & continue 
+
+Identify the rules the client is using in N-able 
+
+Monitoring > Associations 
+
+From SO Level: 
+
+Configuration > Monitoring > Rules 
+
+Re-apply AV Defender & Patch management rules 
+
+Grant customer & site access tab 
+
+From SO Level: 
+
+Administration > PSA Integration > Device class mapping 
+
+check boxes for new sites 
+
+From client level: 
+
+Administration > Probes 
+
+Choose probe > Assign 
+
+Enable all for only the new site 
+
+filter devices by site subnet and move to new site 
